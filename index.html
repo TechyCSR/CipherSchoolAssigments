@@ -141,7 +141,8 @@
             <!-- Dynamic content will be inserted here -->
         </div>
         <footer>
-            Developed by <a href="https://techycsr.tech" target="_blank"> © TechyCSR</a><br>
+            <a href="https://techycsr.tech" target="_blank">@TechyCSR</a><br>
+           
             <p>Course taught by <a href="#" id="instructor-link">Ashis Sir</a></p>
         </footer>
     </div>
@@ -152,7 +153,6 @@
             "Day 1": ["Ques-01.cpp", "Ques-02.cpp"],
             "Day 2": ["Ques-01.cpp", "Ques-02.cpp"],
             "Day 3": ["Ques-01.cpp", "Ques-02.cpp"]
-            // Add more days and files as needed
         };
 
         // Function to dynamically create the directory structure
@@ -182,8 +182,9 @@
                 
                 files.forEach(file => {
                     const fileLink = document.createElement('a');
-                    fileLink.href = `#`; // Link to the file, update to point to the actual files
+                    fileLink.href = `./${day}/${file}`; // Correct path assuming files are organized under Day folders
                     fileLink.textContent = file;
+                    fileLink.target = '_blank'; // Open files in a new tab
                     filesList.appendChild(fileLink);
                 });
 
@@ -197,7 +198,7 @@
         generateDirectoryStructure(repoData);
 
         // Set the instructor profile link (update the href with the actual link)
-        document.getElementById('instructor-link').href = "https://www.linkedin.com/in/your-profilppp";
+        document.getElementById('instructor-link').href = "https://www.linkedin.com/in/your-profile";
     </script>
 </body>
 </html>
