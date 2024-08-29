@@ -2,8 +2,8 @@
 
 This repository contains my daily C++ assignments for CipherSchool. Each day is organized into its own folder, and within each folder, you'll find C++ files corresponding to the questions assigned for that day.
 
-__Course Instructor:__ Ashis Sir  
-__Profile Link:__ [Your LinkedIn Profile](#)
+__Course Instructor:__ Avnish Sir  
+__Profile Link:__ [LinkedIn Profile](https://bit.ly/cipherschoolslinkedin)
 
 ---
 

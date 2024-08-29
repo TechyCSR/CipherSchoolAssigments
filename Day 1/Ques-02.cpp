@@ -1,8 +1,3 @@
-// #include <iostream>
-// #include <string>
-
-// using namespace std;
-
 // int main() {
 //     // Declare variables for the input strings
 //     string firstString, secondString;
@@ -22,5 +17,4 @@
 
 //     return 0;
 // }
-
 
